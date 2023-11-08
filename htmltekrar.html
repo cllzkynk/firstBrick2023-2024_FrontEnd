@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Cikmis sorular</title>
+</head>
+<body>
+<h1>Metin / Text etiketleri</h1>
+ <p> " < h1 > < h2 >< h3 >< h1 >< h4 >< h5 >< h6 > "  bunlar baslik icin kullanilir sayi buyudukce boyut kuculur </p><br>
+
+<p> "< p> " tagi paragraf eklemek icin kullanilir. <br>
+    "< br/> al satira gecmek icin kullanilir"<br>
+    "< strong >" kalin yazmak icin kullanilir<br>
+        "< em >" italik yapmak icin kullanilir.<br>
+            "< hr/ >" paragraflar arasi cizgi eklemek icin kullanilir<br>
+            "< !---->" yorum eklemek icin kullanilir<br>
+            daha ayritili taglar icin <a href="h_ptagi.html">ilk derse gidiniz</a>
+</p>
+
+
+<h1 id="liste">listeler</h1>
+<p>< ul> , < ol>  taglari liste icin kullanilir . ol ==> ordered list , ul ==> unordered list anlamindadir <br/>
+< li>  listedeki elemanlari olusturu. li ==> list item <br/>
+< ol> < ol/>  ==> seklinde type yazmazsak 1. 2. 3. seklinde siralar<br/>
+< ol> < ol/>  ==> seklinde type="A" yazarsak A. B. C. seklinde siralar<br/>
+< ol> < ol/>  ==> seklinde type="I"yazarsak I. II. II. seklinde roma rakamlariyla siralar<br/>
+< ol> < ol/>  ==> seklinde type="1" start="5" yazarsak 5. 6. 7. seklinde siralar<br/>
+
+< ul>< ul/>   ==> seklinde type yazmazsak koyu nokta seklinde siralar<br/>
+< ul type=circle>< ul/>   ==> seklinde type=circle yazarsak ici bos cember seklinde siralar<br/>
+< ul type=square>< ul/>   ==> seklinde type=square yazarsak kareler seklinde siralar<br/>
+
+</p>
+
+<h1>Tablolar</h1>
+
+<p> < table>   tagi tablo olusturmak icin kullanilir <br/>
+< tr> =>table row <br/>
+< th> => table  head  <br/>
+< td> ==> degerleri 
+
+
+</p>
+<table  border="1">
+    <tr>
+        <th colspan="2">aaaaaaaaaaaaaaaaa</th>
+        <th>aaaaaaaaaaaaaaaaa</th>
+        <th>aaaaaaaaaaaaaaaaa</th>
+        <th>aaaaaaaaaaaaaaaaa</th>
+        
+    </tr>
+    <tr>
+        <td>aaaaaaaaaaaaaaaaa</td>
+        <td>aaaaaaaaaaaaaaaaa</td>
+        <td>aaaaaaaaaaaaaaaaa</td>
+        <td>aaaaaaaaaaaaaaaaa</td>
+        <td>aaaaaaaaaaaaaaaaa</td>
+    </tr>
+    <tr>
+        <td>aaaaaaaaaaaaaaaaa</td>
+        <td>aaaaaaaaaaaaaaaaa</td>
+        <td>aaaaaaaaaaaaaaaaa</td>
+        <td>aaaaaaaaaaaaaaaaa</td>
+        <td rowspan="3">aaaaaaaaaaaaaaaaa</td>
+    </tr>
+    <tr>
+        <td rowspan="2">aaaaaaaaaaaaaaaaa</td>
+        <td>aaaaaaaaaaaaaaaaa</td>
+        <td colspan="2">aaaaaaaaaaaaaaaaa</td>
+         
+         <!-- her tr bir satir demektir-->
+    </tr>
+    <tr>
+        
+        <td>aaaaaaaaaaaaaaaaa</td>
+        <td>aaaaaaaaaaaaaaaaa</td>
+        <td>aaaaaaaaaaaaaaaaa</td>
+        
+    </tr>
+
+    <!-- th table head
+    tr satir 
+td hucre
+-->
+
+</table>
+
+<table border="1">
+    <th colspan="2">Ders Notlari</th>
+    <tr>
+    <td>Mat</td>
+    <td>90</td>
+    </tr>
+    <tr>
+    <td>Fen</td>
+    <td>90</td>
+    </tr>
+    <tr>
+    <td>Beden</td>
+    <td rowspan="2">190</td>
+    </tr>
+    <tr>
+    <td>Muzik</td>
+    </tr>
+    </table>
+    
+   
+<!------------------------------------------LINKLER------------------------------------------------------------>
+<!-- 1 dis baglanti verme   -->
+<!-- sayfa ici link verme   (basa git en yukari git en asagi git)-->
+<p>Link verme</p>
+<a href="#liste"> Liste konusu tekrar etmek icin tiklayiniz</a>
+<br/>
+<a href="https:/academy.patika.dev/tr/paths/baslangic-seviye-frontend-web-development-patikasi">yazilimci patikasi</a>
+
+
+
+
+
+</body>
+</html>
