@@ -1,0 +1,26 @@
+h1{
+   color: brown;
+}
+
+.anabaslik{
+    color: rgb(4, 4, 241);
+}
+
+.altbaslik{
+    color: bisque;
+}
+
+#ana-baslik{
+    background-color: antiquewhite;
+}
+.btn{
+    background-color: rgb(136, 236, 163);
+    border-radius: 50%;
+ 
+}
+
+.btn:hover {
+    background-color: rgb(0, 230, 61);
+ 
+ 
+}
