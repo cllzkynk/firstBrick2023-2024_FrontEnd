@@ -1,0 +1,37 @@
+*{
+    background-color: rgb(213, 131, 31);
+}
+
+div h3{
+    color: blue;
+}
+
+h1 , p {
+    color: blueviolet;
+}
+dl > dt{
+    color: red;
+}
+
+dt{
+    background-color: aqua;
+}
+
+dl~p{
+    color: black;
+}
+
+
+dl+p{
+    background-color: bisque;
+}
+
+
+
+p.paragraf1 , h1{
+    font-style: italic;
+}
+
+
+
+

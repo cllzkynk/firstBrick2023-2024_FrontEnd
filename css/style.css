@@ -1,26 +1,88 @@
-h1{
-   color: brown;
+.anabaslik {
+  color: rgb(4, 4, 241);
 }
 
-.anabaslik{
-    color: rgb(4, 4, 241);
+h1 {
+  color: brown;
 }
 
-.altbaslik{
-    color: bisque;
+.altbaslik {
+  color: bisque;
 }
 
-#ana-baslik{
-    background-color: antiquewhite;
+#ana-baslik {
+  background-color: antiquewhite;
 }
-.btn{
-    background-color: rgb(136, 236, 163);
-    border-radius: 50%;
- 
+.btn {
+  background-color: rgb(136, 236, 163);
+  border-radius: 50%;
 }
 
 .btn:hover {
-    background-color: rgb(0, 230, 61);
- 
- 
+  background-color: rgb(0, 230, 61);
+  border-radius: 10%;
 }
+
+p.paragraf {
+  background-color: aliceblue;
+  color: rgb(16, 17, 17) !important;
+}
+
+p.paragraf {
+  background-color: aliceblue;
+  color: rgb(7, 190, 83) !important ;
+}
+
+p.paragraf {
+  background-color: aliceblue;
+  color: rgb(190, 7, 7) !important ;
+}
+
+/*
+seciciler --- selectors
+
+
+*/
+
+#a1 {
+  text-align: center;
+}
+
+/*
+
+*{
+    Tum etiketleri secer
+}
+
+p{
+    p taglarini secer
+}
+
+div p {   
+    div etiketleri icindeki tum p leri secer
+}
+
+div , p {
+    tum div leri ve tum p leri secer
+}
+
+div > p {
+    ust etiketi div olan p leri secer
+}
+
+
+p~div {
+    p den sonra gelen ayni seviyedeki tum divleri secer
+}
+
+p+div{
+    p den sonra gelen ayni seviyedeki ilk div i secer.
+}
+
+div.box , p {
+div in icinde bulunan ve  class ismi box olan etiket ile p taglarini secer
+}
+
+
+
+*/
