@@ -1,37 +1,106 @@
-*{
-    background-color: rgb(213, 131, 31);
+* {
+  background-color: rgb(213, 131, 31);
 }
 
-div h3{
-    color: blue;
+div h3 {
+  color: blue;
 }
 
-h1 , p {
-    color: blueviolet;
+h1,
+p {
+  color: blueviolet;
 }
-dl > dt{
-    color: red;
-}
-
-dt{
-    background-color: aqua;
+dl > dt {
+  color: red;
 }
 
-dl~p{
-    color: black;
+dt {
+  background-color: aqua;
+}
+
+dl ~ p {
+  color: black;
+}
+
+dl + p {
+  background-color: bisque;
+}
+
+p.paragraf1,
+h1 {
+  font-style: italic;
+}
+
+/*
+
+a[href^="https://first"]{
+    color: aquamarine;
+}
+
+a[href*="first"] {
+   background-color: bisque;
 }
 
 
-dl+p{
-    background-color: bisque;
+a[href$=".org//"] {
+   color:red ;
+ }
+
+ a[href$=".org//"] {
+    color:rgb(77, 11, 154) ;
 }
 
 
-
-p.paragraf1 , h1{
+a[href^="https"][target="_blank"]{
     font-style: italic;
 }
+*/
 
+img + p::first-line {
+  color: blue;
+}
 
+img + p::first-letter {
+  color: brown;
+}
 
+ul li:first-child {
+  color: rgb(228, 13, 24);
+}
 
+ul li:last-child {
+  color: rgb(25, 14, 233);
+}
+ul li:nth-child(4) {
+  color: rgb(25, 14, 233);
+}
+ul li:nth-of-type(odd) {
+  color: rgb(3, 149, 64);
+}
+ul li:nth-of-type(even) {
+  color: rgb(210, 227, 19);
+}
+
+h1::after {
+  content: " Maksat hasil oldu";
+}
+
+a {
+  color: black;
+  background-color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+}
+
+a:visited {
+  color: brown;
+}
+
+a:hover {
+  font-size: xx-large;
+  color: aquamarine;
+}
+
+.sondiv:hover span {
+  display: none;
+}
