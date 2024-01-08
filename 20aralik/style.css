@@ -1,0 +1,33 @@
+/*
+bcg backgraound
+renk
+arka plan goruntusu (tekrarli, seffaflik
+
+seffaflik 0 ila 1 arasinda deger olur
+
+
+uzunluk yada miktarlari oransal olarak vermek sayfayi responsive olmasi acisindan daha verimli yapar. 
+sabit ucunluklar yani px boyutu degisen ekranlarda sorun cikarir
+
+*/
+
+body{
+    background-image:url("asset/images.jpeg");
+    opacity: 0.8;
+    background-repeat:repeat-y ;
+    background-position: center;
+
+    background-size:  500px;
+
+}
+
+
+.baslik{
+    width:25%;
+
+
+    margin-top: 0.5% ;
+    margin-left: 5%;
+
+    padding-top: 5rem;
+}

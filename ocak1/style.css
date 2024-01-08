@@ -1,0 +1,60 @@
+body {
+    font-family: sans-serif;
+  
+  }
+
+  h1 {
+    background-color: aquamarine;
+    font-size: 2em;
+    font-weight: bold; 
+    color: blue;
+ 
+  }
+
+  h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 1em;
+
+  }
+
+  em {
+    font-style: italic;
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  code {
+    font-family: monospace;
+    background-color: #f8f8f8;
+    padding: 0.2em;
+  }
+
+  blockquote {
+    margin: 1em 0;
+    padding: 0 1em;
+    border-left: 5px solid #ccc;
+  }
+
+
+/*
+text decoration 
+text-transforn
+letter-spacing
+word scaping 
+line-height
+white space nowrap
+text shadow
+direction
+
+*/
