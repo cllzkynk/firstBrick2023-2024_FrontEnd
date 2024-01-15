@@ -1,0 +1,58 @@
+.box1{
+    border-style: dotted;
+    border-width: 8px;
+
+    border-color: blue;
+}
+
+.box2{
+    border-style: dashed;
+    border-width: medium;
+}
+
+
+.box3{
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10px;
+}
+
+.box4{
+    border-style: double;
+    border-width: 15px;
+
+    border-radius: 10%;
+}
+
+.box5{
+    border-style: groove;
+    border-width: thick;
+    border-radius: 10px;
+}
+
+.box6{
+    border-style: ridge;
+    border-width: thin;
+}
+
+.box7{
+    border-style: outset;
+}
+
+.box8{
+    border-style: none;
+}
+.box9{
+    border-style: hidden;
+}
+.box10{
+    border-style: dotted dashed solid double;
+}
+
+.box11{
+    border :6px solid purple;
+    background-color: antiquewhite;
+    outline: 10px  groove lightgreen;
+    box-shadow: 13px 18px 32px black;
+
+}

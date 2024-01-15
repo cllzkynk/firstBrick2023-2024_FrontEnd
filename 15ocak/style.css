@@ -1,0 +1,55 @@
+.metin-p{
+    color: blue;
+    text-decoration:overline;
+}
+.metin-p1{
+    background-color: aquamarine;
+ text-decoration: line-through;
+   
+}
+
+.metin1{
+    text-align: justify;
+    text-indent: 4%;
+}
+
+.metin-span{
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: -13px 16px 3px rgb(35, 10, 229);
+
+
+}
+
+.metin-h1{
+    text-decoration: underline overline;
+}
+
+
+.metin3{
+letter-spacing: 5px;
+}
+
+.metin4{
+    letter-spacing: 0px ; 
+}
+
+.metin1{
+    word-spacing: 0px;
+}
+
+.metin2{
+    word-spacing: 15px;
+}
+
+.sp{
+    line-height: 2;
+    white-space:initial
+
+}
+
+
+.metin-h2{
+    direction: rtl;
+    unicode-bidi:isolate;
+}
