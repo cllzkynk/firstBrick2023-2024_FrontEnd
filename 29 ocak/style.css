@@ -1,0 +1,16 @@
+/*
+ inherit ==  miras
+
+*/
+
+
+.icdiv{
+    border: 2px  solid rgb(58, 16, 225);
+    margin-left: 200px;
+    border-radius: 25%;
+}
+
+.icp{
+    border: inherit;
+    margin-left: inherit;
+}

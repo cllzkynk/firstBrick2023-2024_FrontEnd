@@ -1,0 +1,37 @@
+h1 , p , ul , div , li {
+    border: 2px solid black;
+}
+
+
+p{
+    padding-right:100px;
+}
+
+div p {
+    padding:1%  2%  3%  4%;
+    /*sirasiyla ust sag sol alt */
+}
+
+div{
+    padding:   2%  3%  4%;
+     /*sirasiyla ust sag=sol alt */
+}
+
+h1{
+    padding:  3%  4%;
+
+    /*sirasiyla ust=alt sag=sol  */
+}
+ 
+  ul{
+    padding: 3px;
+    
+
+  }
+
+ul li{
+   
+display: inline-block;
+ margin:0 auto;
+ padding: 3px;
+}

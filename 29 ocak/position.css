@@ -1,0 +1,39 @@
+div.static{
+    position: static;
+    border:3px  solid green;
+     
+}
+
+
+
+div.relative{
+    position: relative;
+    border:3px  solid rgb(53, 4, 231);
+    left: 100px;
+    bottom:75px;
+
+}
+
+
+/*
+elementi relative yaptiktan sonra left , right , top , bottom  ozellikleri kullanilabilir
+*/
+
+.relativemirascisi{
+
+    position: relative;
+    bottom:0px;
+    border:3px  solid rgb(255, 0, 0);
+    top: 200px;
+
+}
+
+
+
+.imoji{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 250px;
+    border: 2px solid rgb(0, 255,0);
+}

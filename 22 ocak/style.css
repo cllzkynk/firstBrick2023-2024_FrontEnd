@@ -1,0 +1,66 @@
+ .baslik{
+    text-align: center;
+ }
+
+ .ic1{
+    background-color: green;
+   width: 200px;
+   height: 50px;
+   text-align: center;
+   margin: 15px;
+   padding: 15px;
+   margin:auto auto;
+   border-style: solid ;
+   border-color: black;
+   border-width: 3px;
+   
+ }
+
+ .ic1 p{
+    color: white;
+ }
+
+
+ .ic2{
+    background-color: white;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    margin:auto auto;
+    border-style: solid ;
+    border-color: black;
+    border-width: 3px;
+ }
+
+
+ .ic3{
+    background-color: green;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    margin:auto auto;
+    border-style: solid ;
+    border-color: black;
+    border-width: 3px;
+ }
+ .ic3 p{
+    color: white;
+ }
+
+
+ .ic4{
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    margin:auto auto;
+   padding: 15px;
+   border-style: solid ;
+   border-color: black;
+   border-width: 5px;
+
+ }
