@@ -1,0 +1,54 @@
+/*  relative izafi , degisken
+fixed oldugu yere  mihlamak 
+absolute  absolute olarak ayarlanan element kendisini
+ icinde bulundugu ogeye gore konumlandirir  */
+
+
+div.relative {
+
+position: relative;
+width: 500px;
+height: 300px;
+border: 3px solid rgb(52, 3, 226);
+
+
+}
+
+div.absolute {
+position: absolute;
+top: 100px;
+right: 0;
+width: 250px;
+height: 150px;
+border: 3px solid rgb(251, 142, 17);
+}
+
+
+
+
+div.sticky {
+position: -webkit-sticky;
+position: sticky;
+top: 10px;
+padding: 15px;
+background-color: #a4ebbb;
+border: #0fbc46;
+
+}
+
+/*  bir elementin position i ni absolute olarak kullanmak icin 
+(ic ice elementlerde icinde bulundugu elemente gore konumlandirmak icin) 
+ebeveyn elementin relative olmasi gerekir. */
+
+
+img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+
+p.renk:hover body{
+    background-color: rgb(61, 183, 73)important! ;  
+}

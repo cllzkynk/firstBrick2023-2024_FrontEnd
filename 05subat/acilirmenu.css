@@ -1,0 +1,22 @@
+.acilirmenu{
+    position: relative  ;
+    display: inline-block;
+}
+
+
+.sabitmenu{
+    color: blue;
+    font-weight: 900;
+}
+
+.acilirmenuicerik{
+    display: none; 
+position: absolute;
+background-color: rgb(224, 178, 68);
+min-width: 200px;
+box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.3)  ;
+padding: 15px 20px ;
+z-index: 1 ;
+ 
+}
+ 

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="position.css" />
+  </head>
+  <body>
+    <!--static html default olarak static`tir-->
+    <p class="renk">renk</p>
+    <div style="width: 100%; height: 40px; border: 2px solid green"></div>
+    <h2>Position : absolute ;</h2>
+    <p>
+      CSS'de "absolute" komutu, bir elementin pozisyonunu belirlemek için
+      kullanılan bir özelliktir. Bu özellik sayesinde, bir elementin konumu, en
+      yakın pozisyon belirtilmiş olan üst elemente göre ayarlanır. Yani,
+      "absolute" değeri verilen bir element, normal akıştan çıkar ve üstteki
+      diğer elementlere göre pozisyonunu belirler. Eğer üstteki elementlerden
+      herhangi biri "relative", "absolute" veya "fixed" bir pozisyona sahip
+      değilse, "absolute" element, sayfanın köşesine göre pozisyon alır. Bu
+      özellik genellikle overlaylar veya menüler gibi belirli konumlarda sabit
+      kalmak isteyen elementler için kullanılır.
+    </p>
+
+    <p>
+      bir eleman absolute , olarak konumlandiginda bulundugu bir ust nesnenin
+      icerisinde konumlanir
+    </p>
+
+    <div class="relative">
+      Bu div relative olarak konumlandmistir Bu div absolute elemanlar icerir.
+      <div class="absolute">bu eleman ise absolute olarak konumlanmistir</div>
+    </div>
+
+    <h1>
+      ----------------------------------------------------------------------------------------------------------------
+    </h1>
+
+    <h2>Position : Sticky ;</h2>
+    <p>
+      "CSS'de sticky özelliği bir nesnenin scroll edildiğinde belirli bir
+      konumda sabit kalmasını sağlar. Bu özellik, nesnenin konumunu fixed ve
+      relative özelliklerin bir karışımı olarak tanımlanır. Özellikle bir
+      nesnenin belirli bir kısmı ekranın kenarına yapışık kalmak istendiğinde
+      kullanılır. Örneğin, bir navigasyon menüsünün ekranın üst kısmında sabit
+      kalmasını sağlamak için position: sticky; top: 0; gibi bir stil
+      kullanılabilir. Bu özellik, bir nesnenin belirli bir scroll mesafesine
+      kadar normal akışta hareket etmesini ve daha sonra sabitlenmesini sağlar.
+      Tarayıcı uyumluluğu bazında bazı sınırlamalar olabilir, ancak genellikle
+      modern tarayıcılarda desteklenir.
+    </p>
+
+    <p>bu sayfayi kaydirmaya basladigimizda sticky div uste sabitlenir</p>
+
+    <div class="sticky">burasi yapiskanli divin oldugu kisimdir.</div>
+
+    <div style="padding-bottom: 1200px">
+      <p>Sayfayi doldurma metni</p>
+      <p>Sayfayi doldurma metni</p>
+
+      <p>Sayfayi doldurma metni</p>
+
+      <p>Sayfayi doldurma metni</p>
+      <p>Sayfayi doldurma metni</p>
+      <p>Sayfayi doldurma metni</p>
+      <p>Sayfayi doldurma metni</p>
+      <p>Sayfayi doldurma metni</p>
+      <p>Sayfayi doldurma metni</p>
+      <p>Sayfayi doldurma metni</p>
+      <p>Sayfayi doldurma metni</p>
+    </div>
+
+    <h1>
+      ----------------------------------------------------------------------------------------------------------------
+    </h1>
+
+    <h2>Z-index</h2>
+    <p>
+      Z indeksi, CSS'te bir elementin diğer elementlerin üzerinde ne kadar öne
+      çıkacağını belirlemek için kullanılan bir özelliktir. Bir elementin z
+      indeksi değeri ne kadar yüksekse, o element diğerlerinin üzerinde daha
+      üstte olur. Örneğin, bir popup penceresinin diğer sayfa içeriğinin
+      üzerinde görünmesini istiyorsanız, z indeksi değerini yüksek bir sayıyla
+      ayarlayabilirsiniz. Bu sayede, elementin sıralama düzeni belirlenir ve
+      istenilen şekilde görüntülenmesi sağlanır. Eğer z indeksi hakkında daha
+      fazla bilgi edinmek isterseniz, CSS dokümantasyonunda detaylı bilgilere
+      ulaşabilirsiniz.
+    </p>
+
+    <div style="position: relative">
+      <h1>Burasi bir basliktir (z index kullanimi)</h1>
+
+      <img
+        src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/whatsapp-design-template-a62f0bf703ae0061d9754c93653c510a_screen.jpg?ts=1585224864"
+        width="250"
+        height="250"
+      />
+
+      <p>
+        resim z-index:-1 degerine sag-hip oldugu icin metinle cakissa bile
+        metnin altinda kalir. Cunki metnin alt katmanina yerlesir . Normalde
+        z-index kullanmasak resim on plana cikardi
+      </p>
+    </div>
+
+    <li>
+      <ul></ul>
+      <ul></ul>
+      <ul></ul>
+      <ul></ul>
+      <ul></ul>
+      <ul></ul>
+      <ul></ul>
+
+      <ul></ul>
+
+      <ul></ul>
+      <ul></ul>
+      <ul></ul>
+      <ul></ul>
+      <ul></ul>
+      <ul></ul>
+      <ul></ul>
+
+      <ul></ul>
+    </li>
+
+    <h2 class="imoji">fixed ile sabitlendi</h2>
+
+    <li>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+      <ul>
+        a
+      </ul>
+    </li>
+  </body>
+</html>
