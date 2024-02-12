@@ -1,0 +1,53 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #3e3c3c;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a,
+.Analink {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover,
+.AcilirMenu:hover .Analink1 {
+  background-color: red;
+}
+
+li.AcilirMenu {
+  display: inline-block;
+}
+
+.AcilirMenuIcerik {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.AcilirMenuIcerik a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.AcilirMenuIcerik a:hover {
+  background-color: #f1f1f1;
+}
+.AcilirMenu:hover .AcilirMenuIcerik {
+  display: block;
+}
