@@ -1,4 +1,4 @@
-ul {
+.headerlist {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -50,4 +50,35 @@ li.AcilirMenu {
 }
 .AcilirMenu:hover .AcilirMenuIcerik {
   display: block;
+}
+
+.contents {
+  display: flex;
+}
+
+.leftcontent {
+  border: 1px solid black;
+  margin: 3px;
+  padding: 2px;
+}
+.maincontent {
+  border: 1px solid rgb(236, 5, 5);
+  margin: 3px;
+  padding: 2px;
+}
+
+.rightcontent {
+  border: 1px solid rgb(9, 204, 90);
+  margin: 3px;
+  padding: 2px;
+}
+
+.header-content {
+  display: flex;
+  background-color: #69c67a;
+}
+
+img {
+  width: 70px;
+  height: 70px;
 }
